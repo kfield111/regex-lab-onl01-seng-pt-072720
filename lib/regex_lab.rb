@@ -7,6 +7,8 @@ new_array = []
 text.each do |word|
   new_array << word.scan(/un\w+ing\b/)
 end
+new_array
+end
 
 def words_five_letters_long(text)
 
