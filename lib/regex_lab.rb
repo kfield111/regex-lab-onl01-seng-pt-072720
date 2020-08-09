@@ -4,7 +4,8 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
 new_array = []
-new_array << text.scan(/un\w+ing\b/)
+text.each do |word|
+  new_array << word.scan(/un\w+ing\b/)
 end
 
 def words_five_letters_long(text)
