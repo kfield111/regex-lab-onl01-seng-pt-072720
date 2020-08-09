@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-if "#{word.first}".match(/[i]/)
+if word.match(/[i]/)
 end
 end
 
